@@ -428,15 +428,17 @@ _core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.click = function (handle
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/lib */ "./src/js/lib/lib.js");
 
-$('button').on('click', function () {
-  $('div').eq(2).toggleClass('active');
-});
-$('div').click(function () {
-  console.log($(this).index());
+
+/* $('button').on('click', function() {
+    $('div').eq(2).toggleClass('active');
 });
 
+$('div').click(function() {
+    console.log($(this).index());
+}); */
+
 /* console.log($('div').eq(2).find('.more')); */
-console.log($('.more').eq(0).siblings());
+/* console.log($('.more').eq(0).siblings()); */
 
 /***/ })
 
